@@ -1,0 +1,40 @@
+{
+    "name": "littlegolden/flarum-mybb",
+    "description": "Golden's BBCode",
+    "keywords": [
+        "extension",
+        "flarum",
+        "BBCode"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Golden",
+            "email": "littlegoldenjin@gmail.com",
+            "homepage": "https://discuss.flarum.org.cn"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/littlegolden/flarum-mybb/issues",
+        "source": "https://github.com/littlegolden/flarum-mybb"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.8"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "My BBCode",
+            "icon": {
+                "name": "fas fa-bold",
+                "backgroundColor": "#f8504b",
+                "color": "#fff"
+            }
+        },
+    },
+    "autoload": {
+        "psr-4": {
+            "Golden\\MyBBCode\\": "src/"
+        }
+    }
+}
