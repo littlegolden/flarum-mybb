@@ -30,7 +30,7 @@
                 "backgroundColor": "#f8504b",
                 "color": "#fff"
             }
-        },
+        }
     },
     "autoload": {
         "psr-4": {
