@@ -4,7 +4,7 @@ The personal [Flarum](http://flarum.org/) extension.
 
 Install:
 
-    composer require littlegolden/flarum-mybb
+    composer require littlegolden/flarum-mybb:dev-master
 
 Usage:
 
