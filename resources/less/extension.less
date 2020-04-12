@@ -1,11 +1,17 @@
 /* 增加Steam风格黑幕 */
-.steam_spoiler {
-    color: #000000;
-    background-color: #000000;
-    padding: 0px 8px;
+span.steam_spoiler {
+	color: #000000;
+	background-color: #000000;
+	padding: 0px 8px;
 }
-.steam_spoiler:hover {
-    color: #FFF;
+span.steam_spoiler:hover {
+	color: #ffffff;
+}
+span.steam_spoiler > span {
+	visibility: hidden;
+}
+span.steam_spoiler:hover > span {
+	visibility: visible;
 }
 /* 外链 */
 .outurl .icon.outbound {

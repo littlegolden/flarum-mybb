@@ -7,12 +7,12 @@ use s9e\TextFormatter\Configurator;
 
 return [
     (new Extend\Frontend('forum'))
-        ->css(__DIR__ . '/resources/less/forum/extension.less'),
+        ->css(__DIR__ . '/resources/less/extension.less'),
     (new Extend\Formatter)
         ->configure(function (Configurator $config) {
             $config->BBcodes->addCustom(
                 '[steam]{TEXT}[/steam]',
-                '<span class="steam_spoiler">{TEXT}</span>'
+                '<span class="steam_spoiler"><span>{TEXT}</span></span>'
             );
             $config->BBcodes->addCustom(
                 '[outurl]',
