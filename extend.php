@@ -30,5 +30,13 @@ return [
                 '[x]{TEXT2}[/x]',
                 '<span><input type="checkbox" style="margin-right: 10px" checked disabled><del>{TEXT2}</del></span>'
             );
+            $config->BBCodes->addCustom(
+                '[brown]{TEXT3}[/brown]',
+                '<span class="bbbrown">{TEXT3}</span>'
+            );
+            $config->BBCodes->addCustom(
+                '[aquote]{TEXT}[/aquote]',
+                '<div id="aaalertbody"><div class="aaalert aaquote"><p class="aainner">{TEXT}</p></div></div>'
+            );
         })
 ];

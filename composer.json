@@ -22,6 +22,10 @@
     "require": {
         "flarum/core": "^0.1.0-beta.8"
     },
+    "suggest": {
+        "oe800/flarum-ext-bbcode-alerts": "BBCode Alerts",
+        "zerosonesfun/bbbbcode": "Big Beautiful BBCode"
+    },
     "extra": {
         "flarum-extension": {
             "title": "My BBCode",
